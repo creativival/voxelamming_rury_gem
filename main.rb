@@ -1,5 +1,5 @@
-# require 'voxelamming'
-require_relative '../lib/voxelamming'
+require 'voxelamming'
+# require_relative '../lib/voxelamming'
 
 room_name = '1000'
 vox = Voxelamming::VoxelammingManager.new(room_name)
